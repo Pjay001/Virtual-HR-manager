@@ -1,0 +1,53 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .language-selection {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .language-option {
+    display: flex;
+    justify-content: center;
+  }
+
+  .background-image {
+    background-image: url('job.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .language-square {
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .language-square:hover {
+    transform: scale(1.1);
+  }
+  
+  .language-square img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .language-square p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
